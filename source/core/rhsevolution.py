@@ -5,10 +5,10 @@ import numpy as np
 import time
 
 # homemade source code
-from core.grid import Grid
-from bssn.tensoralgebra import *
-from bssn.bssnrhs import *
-from bssn.bssnvars import BSSNVars
+from .grid import Grid
+from ..bssn.tensoralgebra import *
+from ..bssn.bssnrhs import *
+from ..bssn.bssnvars import BSSNVars
 
 # function that returns the rhs for each of the field vars
 # see further details in https://github.com/GRChombo/engrenage/wiki/Useful-code-background

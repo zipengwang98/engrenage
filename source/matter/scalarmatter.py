@@ -1,9 +1,9 @@
 import numpy as np
 
-from core.grid import *
-from bssn.bssnstatevariables import *
-from bssn.bssnvars import *
-from bssn.tensoralgebra import *
+from ..core.grid import *
+from ..bssn.bssnstatevariables import *
+from ..bssn.bssnvars import *
+from ..bssn.tensoralgebra import *
 
 class ScalarMatter :
     """Represents the matter that sources the Einstein equation."""
